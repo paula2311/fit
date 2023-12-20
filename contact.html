@@ -1,0 +1,128 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+        
+<header class="header">
+    <section class="flex">
+        <a href="#" class="logo">Edu</a>
+
+        <form action="" method="POST" class="search-form">
+            <input type="search" name="search_box" placeholder="search courses..."
+            required maxlength="100">
+            <button type="submit" name="search_box" class="fa fa-search"></button>
+        </form>
+
+        <div class="icons">
+            <div id="menu-btn" class="fas fa-bars"></div>
+            <div id="search-btn" class="fas fa-search"></div>
+            <div id="user-btn" class="fas fa-user"></div>
+            <div id="toggle-btn" class="fas fa-sun"></div>
+        </div>
+
+        <div class="profile">
+            <img src="imgs/paula.jpg" alt="">
+            <h3>paula essam</h3>
+            <span>student</span>
+            <a href="profile.html" class="btn">view profile</a>
+            <div class="flex-btn">
+                <a href="login.html" class="option-btn">login</a>
+                <a href="register.html" class="option-btn">register</a>
+            </div>
+        </div> 
+
+    </section>
+</header>
+
+<!-- side bar section start -->
+<div class="side-bar">
+    <div class="close-side-bar">
+        <i class="fas fa-times"></i>
+    </div>
+    <div class="profile">
+        <img src="imgs/paula.jpg" alt="">
+        <h3>paula essam</h3>
+        <span>student</span>
+        <a href="profile.html" class="btn">view profile</a>
+    </div> 
+
+    <nav class="navbar">
+        <a href="home.html"><i class="fas fa-home"></i><span>home</span></a>
+        <a href="about.html"><i class="fas fa-question"></i><span>about us</span></a>
+        <a href="courses.html"><i class="fas fa-graduation-cap"></i><span>courses</span></a>
+        <a href="teachers.html"><i class="fas fa-chalkboard-user"></i><span>teachers</span></a>
+        <a href="contact.html"><i class="fas fa-headset"></i><span>contact us</span></a>
+    </nav>
+</div>
+<!-- side bar section end -->
+
+
+<!-- contact section start -->
+<section class="contact">
+    <div class="row">
+        <!-- contact img -->
+        <div class="image">
+            <img src="imgs/paula.jpg" alt="" />
+        </div>
+        <!-- contact form -->
+        <form action="" method="post">
+            <h3>get in touch</h3>
+            <input type="text" name="name" class="box" required
+                placeholder="enter your name" maxlength="50">
+            <input type="email" name="email" class="box" required
+                placeholder="enter your email" maxlength="100">
+            <input type="number" name="number" class="box" placeholder="enter your number"
+                maxlength="20" required>  
+            <textarea class="box" name="msg" id="" cols="30" rows="10" placeholder="enter your message" required></textarea>
+            <input type="submit" value="send message" class="inline-btn"
+            name="submit">
+        </form>
+    </div>
+    <div class="box-container">
+        <div class="box">
+            <i class="fas fa-phone"></i>
+            <h3>phone number</h3>
+            <a href="tel:+201014628698">+201014628698</a>
+        </div>
+        
+        <div class="box">
+            <i class="fa-brands fa-whatsapp"></i>
+            <h3>whatsapp</h3>
+            <a href="https://wa.me/+201014628698">+201014628698</a>
+        </div>
+        
+        <div class="box">
+            <i class="fas fa-envelope"></i>
+            <h3>email address</h3>
+            <a href="mailto:paulaessam8@gmail.com">paulaessam8@gmail.com</a>
+        </div>
+
+    </div>
+</section>
+<!-- contact section end -->
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- footer section start -->
+<footer class="footer">
+    &copy; copyright @ 2023 by <a href="https://www.facebook.com/paula.essam.56/" target="_blank"><span>Eng. Paula Essam</span></a> | all rights reseved!
+</footer>
+<!-- footer section end -->
+
+<script src="js/script.js"></script>
+</body>
+</html>
